@@ -1,14 +1,11 @@
-# data-structures-and-algorithms
+## this is our challenge:
 
-# Reverse an Array
-this code make to reverse any array.
-
-## Challenge
-reverse any array without using build in array methods
-
-## Approach & Efficiency
-using a for loop to restucture an array order and it takes O(n)
-
-## Solution
-![whiteboard of Solution](https://i.ibb.co/p0JgxKM/whitebord-reversearray.png)
-
+|__the CC__    | __the Links__|
+| ------------ | ------------:|
+|   code Challenge 01 | [codeChallenge01]()   |
+|   code Challenge 02 | [codeChallenge02]()   |
+|   code Challenge 03 | [codeChallenge03]()   |
+|   code Challenge 04 | [codeChallenge04]()   |
+|   code Challenge 05 | [codeChallenge05]()   |
+|   code Challenge 06 | [codeChallenge06]()   | 
+|   code Challenge 07 | [codeChallenge07]()   |

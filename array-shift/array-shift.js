@@ -20,3 +20,5 @@ function insertShiftArray(arr, num) {
 }
 
 console.log(insertShiftArray([4, 8, 23, 42], 16));
+
+module.exports = insertShiftArray;

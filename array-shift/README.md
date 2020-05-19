@@ -7,8 +7,8 @@ this app to shift array, takes an array  and value as an arguments and return an
 shift any array and add a value to the middle index without using built in array methods
 
 ## Approach & Efficiency
-using a  2 for loops to restucture an array with a new value in the middle index and it takes O(n)
+using a  2 for loops to restucture an array with a new value in the middle index and it takes O(n) and O(n) for space complexity.
 
 ## Solution
-![whiteboard of Solution](https://i.ibb.co/sjJvjgV/whitebord-shiftarray.png)
+![whiteboard of Solution](https://i.ibb.co/rmXZKtz/whitebord-shiftarray.png)
 

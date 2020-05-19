@@ -1,0 +1,20 @@
+{
+    "name": "data-structures-and-algorithms",
+    "version": "1.0.0",
+    "description": "|__the CC__    | __the Links__| | ------------ | ------------:| |   code Challenge 01 | [codeChallenge01]()   | |   code Challenge 02 | [codeChallenge02]()   | |   code Challenge 03 | [codeChallenge03]()   | |   code Challenge 04 | [codeChallenge04]()   | |   code Challenge 05 | [codeChallenge05]()   | |   code Challenge 06 | [codeChallenge06]()   |  |   code Challenge 07 | [codeChallenge07]()   |",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --coverage --verbose"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/issues"
+    },
+    "homepage": "https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms#readme"
+}
