@@ -19,7 +19,6 @@
     },
     "homepage": "https://github.com/osamamousa204/data-structures-and-algorithms#readme",
     "dependencies": {
-        "jest-cli": "^26.0.1"
     },
     "devDependencies": {
         "eslint": "^7.0.0",
