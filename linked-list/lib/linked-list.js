@@ -19,6 +19,42 @@ class LinkedList {
         }
         currentNode.next = node;
     }
+
+    insertBefore(value, newVal) {
+        let node = new Node(newVal);
+        let currentNode = this.head;
+        while (currentNode.next) {
+            var previousNode = currentNode.next;
+            // console.log('this is the nexxt node---->',previousNode);
+            if (currentNode.next.name === value) {
+                // console.log('this is the nexxt node value---->',currentNode.next)
+                currentNode.next = node;
+            }
+            currentNode = currentNode.next;
+            // console.log('this is the nexxt node 2---->',currentNode.next)
+        }
+        currentNode.next = previousNode;
+        // console.log('this is the nexxt node 3---->',currentNode.next)
+        return this;
+    }
+
+    insertAfter(value, newVal) {
+        let node = new Node(newVal);
+        let currentNode = this.head;
+        while (currentNode.next) {
+            var previousNode = currentNode.next;
+            // console.log('this is the nexxt node---->',previousNode);
+            if (currentNode.name === value) {
+                // console.log('this is the nexxt node value---->',currentNode.next)
+                currentNode.next = node;
+            }
+            currentNode = currentNode.next;
+            // console.log('this is the nexxt node 2---->',currentNode.next)
+        }
+        currentNode.next = previousNode;
+        // console.log('this is the nexxt node 3---->',currentNode.next)
+        return this;
+    }
     include(value) {
         let current = this.head;
         while (current.next) {
@@ -29,7 +65,6 @@ class LinkedList {
                 return false;
             }
         }
-
     }
     toString() {
         let allNodes = [];
@@ -46,6 +81,12 @@ class LinkedList {
     }
 
 }
-let list = new LinkedList();
-
+// let list = new LinkedList();
+// list.append(5);
+// list.append(7);
+// list.append(6);
+// list.append(8);
+// list.insertBefore(7, 4);
+// list.insertAfter(6, 9);
+// list.toString();
 module.exports = LinkedList;
