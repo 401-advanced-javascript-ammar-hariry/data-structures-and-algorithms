@@ -50,4 +50,20 @@ describe('Linked List Module', () => {
         linked.append('c');
         expect(linked.toString()).toEqual('a -> b -> c -> null');
     });
+    it('Where k and the length of the list are the same', () => {
+        let linked = new LinkedList();
+        linked.append(1);
+        linked.append(3);
+        linked.append(8);
+        linked.append(2);
+        expect(linked.kthFromEnd(6)).toEqual('Exception');
+    });
+    it('where k is not at the end, but somewhere in the middle of the linked list', () => {
+        let linked = new LinkedList();
+        linked.append(1);
+        linked.append(3);
+        linked.append(8);
+        linked.append(2);
+        expect(linked.kthFromEnd(2)).toEqual(3);
+    });
 });
