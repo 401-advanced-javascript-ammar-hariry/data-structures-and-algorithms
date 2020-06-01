@@ -23,6 +23,11 @@ class LinkedList {
     insertBefore(value, newVal) {
         let node = new Node(newVal);
         let currentNode = this.head;
+        if (currentNode.name === value) {
+            this.head = node;
+            this.head.next = currentNode;
+            return this;
+        }
         while (currentNode.next) {
             var previousNode = currentNode.next;
             // console.log('this is the nexxt node---->',previousNode);
@@ -79,14 +84,29 @@ class LinkedList {
         let arrowNext = allNodes.join(' -> ');
         return arrowNext;
     }
+    kthFromEnd(k) {
 
+        if (k <= 0) {
+            return 'negative numbers rejected';
+        }
+        let currentNode = this.head;
+        let length = 0;
+        while (currentNode.next) {
+            currentNode = currentNode.next;
+            length++;
+        }
+        console.log('length: ', length);
+        let target = length - k;
+        let counter = 0;
+        let newOne = this.head;
+        while (newOne.next) {
+            newOne = newOne.next;
+            counter++;
+            if (counter === target) {
+                return newOne.name;
+            }
+        }
+        return 'Exception';
+    }
 }
-// let list = new LinkedList();
-// list.append(5);
-// list.append(7);
-// list.append(6);
-// list.append(8);
-// list.insertBefore(7, 4);
-// list.insertAfter(6, 9);
-// list.toString();
 module.exports = LinkedList;
