@@ -13,15 +13,15 @@ this code will create a **Stack and Queues**, and methods to add, delete node an
 #### Stack:
 - Big O (for time and space): for ``push method`` is O(1): it's check the top once and inserting the value to the top of **stack**
 - Big O  (for time and space): for ``pop method`` is o(1): i just check the top once and make the next the new top
-- Big O  (for time and space): for ``isEmpty method`` is o(n): check the top value if it is null or hav a value
-- Big O  (for time and space): for ``peek method`` is O(n): just returns the top
+- Big O  (for time and space): for ``isEmpty method`` is o(1): check the top value if it is null or hav a value
+- Big O  (for time and space): for ``peek method`` is O(1): just returns the top
 
 
 #### Queue:
 - Big O (for time and space): for ``enqueue method`` is O(1): it's check the front once and inserting the value to the front of **Queue**
 - Big O  (for time and space): for ``dequeue method`` is o(1): i just check the front once and make the next the new front
-- Big O  (for time and space): for ``isEmpty method`` is o(n): check the front value if it is null or hav a value
-- Big O  (for time and space): for ``peek method`` is O(n): just returns the front
+- Big O  (for time and space): for ``isEmpty method`` is o(1): check the front value if it is null or hav a value
+- Big O  (for time and space): for ``peek method`` is O(1): just returns the front
 
 ## Solution
 ![whiteboard of Solution for stack](https://i.ibb.co/DRqZdzH/Screenshot-62.png)
