@@ -16,7 +16,6 @@ class BinaryTree {
     preOrder() {
         let treeResults = [];
         let _walk = (node) => {
-            //   console.log('this is node', node)
             treeResults.push(node.name);
             if (node.left) _walk(node.left);
             if (node.right) _walk(node.right);
@@ -45,6 +44,29 @@ class BinaryTree {
         }
         _walk(this.root);
         return treeResults;
+    }
+
+    breadthFirst(tree) {
+
+        let rootArray = [];
+        let breadthFirstTrivals = [];
+        if (tree.root === null) return null;
+
+        rootArray.push(tree.root);
+
+        while (rootArray.length !== 0) {
+
+            for (let i = 0; i < rootArray.length; i++) {
+
+                let current = rootArray.shift();
+                breadthFirstTrivals.push(current.name);
+                if (current.left) rootArray.push(current.left);
+                if (current.right) rootArray.push(current.right);
+            }
+        }
+
+
+        return breadthFirstTrivals;
     }
 }
 
@@ -92,7 +114,6 @@ class BinarySearchTree {
         }
         _walk(this.root);
 
-        //         console.log(treeResults[0]);
         if (treeResults[0]) {
             return true;
         } else {
@@ -100,6 +121,7 @@ class BinarySearchTree {
         }
     }
 }
+
 
 
 module.exports = { Node, BinaryTree, BinarySearchTree };

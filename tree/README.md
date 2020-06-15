@@ -1,12 +1,12 @@
 # data-structures-and-algorithms
 
 # BinaryTree and BinarySearchTree:
--  Create a Node class that has properties of value , left and the right node . Create a **BinaryTree** class with ``preOrder()``,``postOrder()`` and ``inOrder()`` methods . 
+-  Create a Node class that has properties of value , left and the right node . Create a **BinaryTree** class with ``preOrder()``,``postOrder()`` , ``inOrder()`` and ``breadthFirst()`` methods . 
 - Create a **BinarySearchTree** class with ``add()`` and ``contain()`` methods
 
 ## Challenge
 - create a class **Node** 
-- create a a class **BinaryTree** and create method ``preOrder()``,``postOrder()`` and ``inOrder()`` methods for each of the depth first traversals. 
+- create a a class **BinaryTree** and create method ``preOrder()``,``postOrder()`` and ``inOrder()`` methods for each of the depth first traversals. and ``breadthFirst()`` method for breadth first traversal
 - create a a class **BinarySearchTree** and create method ``add()``  to add node to the tree and ``contain()`` to check if the value exists or not.
 
 ## Approach & Efficiency
@@ -14,6 +14,7 @@
 -  ``preOrder()``: traversals Perant - Left - Right.
 - ``postOrder()`` :traversals Left - Right - Perant
 -  ``inOrder()`` :traversals Left - Perant - Right
+- ``breadthFirst()``:traversals in the tree by each level. I use two loops, while loop to keep looping till the end of the tree and for loop to itirate the tree values and push the value level by level.
 
 - create a a class **BinarySearchTree**
 - create method ``add()``  to add node to the tree it will add the bigger value than the perant to the right and the smaller to the left 
@@ -22,6 +23,7 @@
 #### binarytree:
 - Big O (for time ):  is O(n): becuse it depend on the number of the nodes
 - Big O  (for space):  is o(h): becuse it depend on the height of tree
+- Big O  (for time and space) for `breadthFirst()`:  is o(n^2): becuse I use two loops to check tree's nodes.
 
 
 
@@ -29,9 +31,9 @@
 - Big O (for time ): is O(log(n)):  becuse it depend on the number of the nodes will check
 - Big O  (for space):  is o(h): becuse it depend on the height of tree
 
-
 ## Solution
 ![whiteboard of Solution for binarytree](https://i.ibb.co/Wc1681N/binary-tree.png)
 ![whiteboard of Solution for binarysearchtree](https://i.ibb.co/cCmNz3D/binary-search-tree.png)
+![whiteboard of Solution for binarytree breadthFirst](https://i.ibb.co/P4Rk2QN/breadth-first.png)
 
 

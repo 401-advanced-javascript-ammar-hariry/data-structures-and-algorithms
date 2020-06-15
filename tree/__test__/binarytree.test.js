@@ -26,7 +26,6 @@ describe('Binary Tree', () => {
         three.right = five;
 
         tree = new Tree.BinaryTree(one);
-        //         console.log(tree)
     });
 
     it('preOrder()', () => {
@@ -45,6 +44,12 @@ describe('Binary Tree', () => {
         let expected = [8, 9, 7, 6, 2, 4, 5, 3, 1];
         let postOrder = tree.postOrder();
         expect(postOrder).toEqual(expected);
+    });
+
+    it('breadthFirst()', () => {
+        let expected = [1, 2, 3, 6, 4, 5, 7, 8, 9];
+        let breadthFirst = tree.breadthFirst(tree);
+        expect(breadthFirst).toEqual(expected);
     });
 
 });
