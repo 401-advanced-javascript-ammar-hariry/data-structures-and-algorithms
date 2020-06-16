@@ -68,6 +68,24 @@ class BinaryTree {
 
         return breadthFirstTrivals;
     }
+    maximumValue() {
+        let treeResults = [];
+        let _walk = (node) => {
+
+            if (node.left) _walk(node.left);
+            treeResults.push(node.name);
+            if (node.right) _walk(node.right);
+        }
+        _walk(this.root);
+
+        var max = 0;
+        for (let i = 0; i < treeResults.length; i++) {
+            if (max < treeResults[i]) {
+                max = treeResults[i]
+            }
+        }
+        return max;
+    }
 }
 
 class BinarySearchTree {
