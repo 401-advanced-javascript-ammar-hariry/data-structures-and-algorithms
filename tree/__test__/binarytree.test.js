@@ -46,10 +46,15 @@ describe('Binary Tree', () => {
         expect(postOrder).toEqual(expected);
     });
 
-    it('breadthFirst()', () => {
+    it('breadthFirst() will make breadthFirst traversal', () => {
         let expected = [1, 2, 3, 6, 4, 5, 7, 8, 9];
         let breadthFirst = tree.breadthFirst(tree);
         expect(breadthFirst).toEqual(expected);
+    });
+
+    it('maximumValue() it will return the max value of a tree', () => {
+        let maxValue = tree.maximumValue();
+        expect(maxValue).toEqual(9);
     });
 
 });
