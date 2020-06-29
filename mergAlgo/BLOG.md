@@ -50,4 +50,4 @@ ALGORITHM Merge(left, right, arr)
   ````
 
 ### tracing:
-![tracing](https://i.ibb.co/hKNWRYX/api-uml.png)
+![tracing](https://i.ibb.co/StjgP4L/20200630-005125.jpg)
