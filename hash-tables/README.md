@@ -10,24 +10,19 @@ this code will create a **Hash Map** and its own methods to hash the keys ,add  
 
 
 ## Approach & Efficiency
-- create a **Hash Map**  class have a methods  to add linked-list by checking the top and add the new value to it, method to delete node by making the top pointer and make the next the new top, to check for empty or not I check the top pointer if it's null or have value and returns boolean,for peek a value I just return the top.
+- create a **Hash Map**  class have a methods  to add linked-list by create a linked list with the value and keys pairs and add it to the map (after hashed the keys), method to hash the key by converte the words to ASCI code and multbling it by pa prime number, method to get a value and key pairs by get the value of map array of the hashed key,  and method to checkif the key exists or not by checing the get method return true or false, .
 
 
-#### Stack:
-- Big O (for time and space): for ``push method`` is O(1): it's check the top once and inserting the value to the top of **stack**
-- Big O  (for time and space): for ``pop method`` is o(1): i just check the top once and make the next the new top
-- Big O  (for time and space): for ``isEmpty method`` is o(1): check the top value if it is null or hav a value
-- Big O  (for time and space): for ``peek method`` is O(1): just returns the top
+#### Hash-Map:
+- Big O  (for time): for ``add method`` is o(1): i just check for the linked list and created alinked list if it's not exists
+- Big O  (for time): for ``get method`` is o(1): check the value of specific key in a map array
+- Big O  (for time): for ``hash method`` is O(n):  using a reduce method
+- Big O  (for time): for ``contains method`` is O(1):  using get method to check if the key exists or not 
 
-
-#### Queue:
-- Big O (for time and space): for ``enqueue method`` is O(1): it's check the front once and inserting the value to the front of **Queue**
-- Big O  (for time and space): for ``dequeue method`` is o(1): i just check the front once and make the next the new front
-- Big O  (for time and space): for ``isEmpty method`` is o(1): check the front value if it is null or hav a value
-- Big O  (for time and space): for ``peek method`` is O(1): just returns the front
+- for all method the Big O  for the space is O(n) n for number of entries
 
 ## Solution
-![whiteboard of Solution for stack](https://i.ibb.co/DRqZdzH/Screenshot-62.png)
-![whiteboard of Solution for queue](https://i.ibb.co/hmmqGc8/Screenshot-64.png)
+![whiteboard of Solution for hash map](https://i.ibb.co/7tjghvH/20200705-004218.jpg)
+
 
 
