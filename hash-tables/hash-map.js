@@ -38,13 +38,14 @@ class HashMap {
 
         }
     }
-}
 
-// let hashmap = new HashMap(1024);
-// hashmap.add('carecter', 'Kaneki');
-// hashmap.add('carecter2', 'Touka');
-// hashmap.add('carecter2', 'amina');
-// hashmap.get('carecter');
+}
+// console.log(this.map[this.hash(key)].head.carecter);
+let hashmap = new HashMap(1024);
+hashmap.add('carecter', 'Kaneki');
+hashmap.add('carecter2', 'Touka');
+hashmap.add('carecter2', 'amina');
+hashmap.get('carecter');
 // hashmap.contains('vas');
 // hashmap.map.forEach((value, idx) => {
 //     console.log(value, idx);
