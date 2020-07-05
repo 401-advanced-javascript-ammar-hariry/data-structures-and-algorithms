@@ -21,6 +21,33 @@ this code will create a **Hash Map** and its own methods to hash the keys ,add  
 
 - for all method the Big O  for the space is O(n) n for number of entries
 
+### Pseudo-code:
+```
+  method hash(key) 
+
+    key.split('').reduce(p, n) , 0) 
+            p + n.charCodeAt(0);
+          * primeNumber % sizeOfMap;
+
+  method  add(key, val) 
+
+        declare hash<---------- this.hash(key);
+        TTF !this.map[hash] 
+            this.map[hash] = new LinkedList();
+	  declare  object entery with [key]: val as a propereties
+       add LinkedList 
+      
+
+  method  get(key) 
+
+         map[index of hashed key];
+    
+   method contains(key) 
+
+        IF get(the key) true
+        ELSE false
+````
+
 ## Solution
 ![whiteboard of Solution for hash map](https://i.ibb.co/7tjghvH/20200705-004218.jpg)
 
