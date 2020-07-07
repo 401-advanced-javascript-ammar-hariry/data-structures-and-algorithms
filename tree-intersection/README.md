@@ -11,4 +11,4 @@ i build InterSection() function that take two tree as inputs and return the repe
 the bigO for (space and time) is O(n^2) sice I used preOrder to go throgh the bothe trees.
 
 ### whiteBoard:
-![whiteboard of Solution for binarytree maximumValue](https://i.ibb.co/nP7x6b/InterSection-tree.png)
+![whiteboard of Solution for binarytree InterSection](https://i.ibb.co/nP7x6b/InterSection-tree.png)
