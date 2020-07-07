@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1593967119648" clover="3.2.0">
-  <project timestamp="1593967119648" name="All files">
-    <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="14" coveredelements="14" complexity="0" loc="9" ncloc="9" packages="1" files="1" classes="1"/>
-    <file name="repeated-word.js" path="/mnt/c/Users/Student 44/ltuc/codefellows/401/data-structures-and-algorithms/repeated-word/repeated-word.js">
-      <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="5" count="5" type="stmt"/>
-      <line num="7" count="5" type="stmt"/>
-      <line num="8" count="12" type="stmt"/>
-      <line num="9" count="12" type="stmt"/>
-      <line num="10" count="68" type="stmt"/>
-      <line num="11" count="68" type="cond" truecount="4" falsecount="0"/>
-      <line num="13" count="4" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
+<coverage generated="1594081590766" clover="3.2.0">
+  <project timestamp="1594081590766" name="All files">
+    <metrics statements="16" coveredstatements="16" conditionals="10" coveredconditionals="9" methods="3" coveredmethods="3" elements="29" coveredelements="28" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
+    <file name="tree-intersection.js" path="/mnt/c/Users/Student 44/ltuc/codefellows/401/data-structures-and-algorithms/tree-intersection/tree-intersection.js">
+      <metrics statements="16" coveredstatements="16" conditionals="10" coveredconditionals="9" methods="3" coveredmethods="3"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="8" count="3" type="stmt"/>
+      <line num="9" count="3" type="stmt"/>
+      <line num="11" count="3" type="stmt"/>
+      <line num="12" count="13" type="stmt"/>
+      <line num="13" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="14" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="18" count="3" type="stmt"/>
+      <line num="19" count="11" type="cond" truecount="1" falsecount="1"/>
+      <line num="20" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="25" count="3" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

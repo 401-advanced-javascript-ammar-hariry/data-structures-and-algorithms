@@ -2,10 +2,30 @@
 
 |__the CC__    | __the Links__|
 | ------------ | ------------:|
-|   code Challenge 01 | [codeChallenge01]()   |
-|   code Challenge 02 | [codeChallenge02]()   |
-|   code Challenge 03 | [codeChallenge03]()   |
-|   code Challenge 04 | [codeChallenge04]()   |
-|   code Challenge 05 | [codeChallenge05]()   |
-|   code Challenge 06 | [codeChallenge06]()   | 
-|   code Challenge 07 | [codeChallenge07]()   |
+|   array-shift | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/array-shift)   |
+|   arrayBinarySearch | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/arrayBinarySearch)   |
+|   arrayReverse | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/arrayReverse)   |
+|   fifoAnimalShelter | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/fifoAnimalShelter)   |
+|   fizzbuzztree | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/fizzbuzztree)   |
+|   hash-tables | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/hash-tables)   | 
+|   linked-list | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/linked-list)   |
+|   ll-merge | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/ll-merge)   |
+|   mergAlgo | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/mergAlgo)   |
+|   multiBracketValidation | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/multiBracketValidation)   |
+|   queue-with-stacks | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/queue-with-stacks)   |
+|   quick-sort | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/quick-sort)   |
+|   repeated-word | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/repeated-word)   |
+|   stack-and-queue | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/stack-and-queue)   |
+|   tracing | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/tracing)   |
+|   tree | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/tree)   |
+|   tree-intersection | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/tree-intersection)   |
+|   - | [folder]()   |
+|   - | [folder]()   |
+|   - | [folder]()   |
+|   - | [folder]()   |
+|   - | [folder]()   |
+|   - | [folder]()   |
+|   - | [folder]()   |
+|   - | [folder]()   |
+|   - | [folder]()   |
+|   - | [folder]()   |
