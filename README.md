@@ -19,7 +19,7 @@
 |   tracing | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/tracing)   |
 |   tree | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/tree)   |
 |   tree-intersection | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/tree-intersection)   |
-|   - | [folder]()   |
+|   LeftJoin | [folder](https://github.com/401-advanced-javascript-ammar-hariry/data-structures-and-algorithms/tree/master/LeftJoin)   |
 |   - | [folder]()   |
 |   - | [folder]()   |
 |   - | [folder]()   |
