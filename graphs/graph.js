@@ -58,6 +58,56 @@ class Graph {
         //         console.log(graphSize);
         return graphSize;
     }
+    bfs(startNode) {
+        const queue = [];
+        const vistedNodes = new Set();
+
+        queue.push(startNode);
+        vistedNodes.add(startNode);
+
+        while (queue.length) {
+            const currentNode = queue.shift();
+
+            const neighbors = this.getNeighbors(currentNode);
+
+            for (let neighbor of neighbors) {
+                const neighborNode = neighbor.vertex;
+                if (vistedNodes.has(neighborNode)) {
+                    continue;
+                } else {
+                    vistedNodes.add(neighborNode);
+                }
+                queue.push(neighborNode);
+            }
+        }
+    }
 }
+
+const graph = new Graph();
+
+const two = new Vertex(2);
+const three = new Vertex(3);
+const six = new Vertex(6);
+const seven = new Vertex(7);
+const eight = new Vertex(8);
+const ten = new Vertex(10);
+
+graph.addVertex(two);
+graph.addVertex(three);
+graph.addVertex(six);
+graph.addVertex(seven);
+graph.addVertex(eight);
+graph.addVertex(ten);
+
+graph.addEdge(two, seven);
+graph.addEdge(three, eight);
+graph.addEdge(six, seven);
+graph.addEdge(six, eight);
+graph.addEdge(ten, two);
+graph.addEdge(ten, three);
+graph.addEdge(ten, six);
+graph.addEdge(eight, seven);
+
+graph.bfs(ten);
 
 module.exports = { Vertex, Edge, Graph };
