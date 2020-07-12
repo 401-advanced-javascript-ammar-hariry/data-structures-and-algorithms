@@ -12,22 +12,6 @@ const seven = new GraphImp.Vertex(7);
 const eight = new GraphImp.Vertex(8);
 const five = new GraphImp.Vertex(10);
 
-// graph.addVertex(two);
-// 
-// graph.addVertex(six);
-
-// 
-// graph.addVertex(ten);
-
-//
-// 
-// graph.addEdge(six, seven);
-// graph.addEdge(six, eight);
-// graph.addEdge(ten, two);
-// graph.addEdge(ten, three);
-// graph.addEdge(ten, six);
-// graph.addEdge(eight, seven);
-
 describe('Graph', () => {
     it('addVertex() will add a vertex', () => {
 
