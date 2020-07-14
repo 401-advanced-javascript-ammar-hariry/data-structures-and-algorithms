@@ -37,12 +37,24 @@ describe('Graph', () => {
         graph.addVertex(seven);
         graph.addVertex(three);
         graph.addVertex(eight);
-        graph.addEdge(two, seven);
-        graph.addEdge(three, eight);
+        graph.addEdge(two, seven, 100);
+        graph.addEdge(three, eight, 30);
         expect(graph.size()).toEqual(4);
     });
     it('getNeighbors() will return an exist vertex', () => {
 
         expect(graph.getNeighbors(eight)).toEqual(graph._adjancyList.get(eight));
+    });
+    it('getEdge() will return true if tow vertexes are connected and the edge weight', () => {
+        let arr = [two, seven]
+        expect(graph.getEdge(arr)).toEqual('true  100$');
+    });
+    it('getEdge() will return error if the array is empty', () => {
+        let arr = []
+        expect(graph.getEdge(arr)).toEqual('the array is empty');
+    });
+    it('getEdge() will return false if tow vertexes are not connected and the edge weight', () => {
+        let arr = [two, eight]
+        expect(graph.getEdge(arr)).toEqual('false 0$');
     });
 })

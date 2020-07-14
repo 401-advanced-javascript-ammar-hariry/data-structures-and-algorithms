@@ -55,7 +55,6 @@ class Graph {
         for (const [vertex, edge] of this._adjancyList.entries()) {
             graphSize++;
         }
-        //         console.log(graphSize);
         return graphSize;
     }
     bfs(startNode) {
@@ -78,6 +77,42 @@ class Graph {
                     vistedNodes.add(neighborNode);
                 }
                 queue.push(neighborNode);
+            }
+        }
+    }
+    getEdge(arr) {
+
+        if (arr.length == 0) {
+            return 'the array is empty'
+        }
+        let neighrborArr = this.getNeighbors(arr[0]);
+        for (let i = 0; i < neighrborArr.length; i++) {
+            if (arr[1].value === neighrborArr[i].vertex.value) {
+                return `true  ${neighrborArr[i].weight}$`;
+            }
+        }
+        return `false 0$`;
+    }
+    dfs(startNode) {
+        const Stack = [];
+        const vistedNodes = new Set();
+
+        Stack.push(startNode);
+        vistedNodes.add(startNode);
+
+        while (Stack.length) {
+            const currentNode = Stack.pop();
+
+            const neighbors = this.getNeighbors(currentNode);
+
+            for (let neighbor of neighbors) {
+                const neighborNode = neighbor.vertex;
+                if (vistedNodes.has(neighborNode)) {
+                    continue;
+                } else {
+                    vistedNodes.add(neighborNode);
+                }
+                Stack.push(neighborNode);
             }
         }
     }
